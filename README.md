@@ -1,15 +1,15 @@
-### Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20px" />
-
 <div align="center">
-  <a target="_blank" href="https://www.ledger.com/">
+  <a target="_blank" href="https://shop.ledger.com?r=3ae057a09ca4">
     <img algin="center" src="https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg" />
   </a>
   
-  <br />
+  <br />  <br />
   
-  <p>Developer at <a target="_blank" href="https://www.ledger.com/">Ledger</a> in Paris.</p>
+  <p>Hi there! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20px" /></p>
+  
+  <p>Developer at <a target="_blank" href="https://shop.ledger.com?r=3ae057a09ca4">Ledger</a> in Paris.</p>
 
-  <p>Building an app for secure crypto wallet.</p>
+  <p>Building an <a target="_blank" href="https://github.com/LedgerHQ/ledger-live-mobile">app</a> for secure crypto wallet.</p>
   <p>Love cutting edge tech and devices.</p>
   🇯🇵 → 🇹🇭 → 🇺🇸 → 🇯🇵 → 🇩🇪 → 🇫🇷
 </div>
