@@ -25,6 +25,12 @@
 ![bevy](https://img.shields.io/badge/Bevy%20Game%20Engine-000?style=for-the-badge)
 ![bash](https://img.shields.io/badge/Bash-000?style=for-the-badge&logo=gnu-bash)
 
+## Setup
+![macbook pro](https://img.shields.io/badge/M1%20Max%20MacBook%20Pro%2014'-000000?style=for-the-badge&logo=apple)
+![terminal](https://img.shields.io/badge/Alacritty-000000?style=for-the-badge&logo=alacritty)
+![editor](https://img.shields.io/badge/Neovim-000000?style=for-the-badge&logo=neovim)
+![browser](https://img.shields.io/badge/Brave-000000?style=for-the-badge&logo=brave)
+
 ## HODL
 ![bitcoin](https://img.shields.io/badge/Bitcoin-000000?style=for-the-badge&logo=bitcoin)
 ![ethereum](https://img.shields.io/badge/Ethereum-000000?style=for-the-badge&logo=ethereum)
