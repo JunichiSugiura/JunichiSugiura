@@ -2,7 +2,7 @@
 
 Developer at @LedgerHQ in Paris
 
-<img src="https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg" width="20px" />
+<img src="https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg" />
 
 [![github](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/JunichiSugiura)
 
