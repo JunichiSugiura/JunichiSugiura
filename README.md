@@ -19,6 +19,11 @@
 ![electron](https://img.shields.io/badge/Electron-000?style=for-the-badge&logo=electron&logoColor=white)
 ![react-native](https://img.shields.io/badge/React%20Native-000?style=for-the-badge&logo=react)
 
+- [ledgerjs](https://github.com/LedgerHQ/ledgerjs)
+- [ledger-live-common](https://github.com/LedgerHQ/ledger-live-common)
+- [ledger-live-mobile](https://github.com/LedgerHQ/ledger-live-mobile)
+- [ledger-live-desktop](https://github.com/LedgerHQ/ledger-live-desktop)
+
 ## At Home
 ![rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust)
 ![solidity](https://img.shields.io/badge/Solidity-000?style=for-the-badge&logo=solidity)
@@ -30,6 +35,8 @@
 ![terminal](https://img.shields.io/badge/Alacritty-000000?style=for-the-badge&logo=alacritty)
 ![editor](https://img.shields.io/badge/Neovim-000000?style=for-the-badge&logo=neovim)
 ![browser](https://img.shields.io/badge/Brave-000000?style=for-the-badge&logo=brave)
+
+- [JunichiSugiura/dotfiles](https://github.com/JunichiSugiura/dotfiles)
 
 ## HODL
 ![bitcoin](https://img.shields.io/badge/Bitcoin-000000?style=for-the-badge&logo=bitcoin)
