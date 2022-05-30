@@ -1,5 +1,5 @@
 <div align="center">
-  <a target="_blank" href="https://shop.ledger.com?r=3ae057a09ca4">
+  <a href="https://shop.ledger.com?r=3ae057a09ca4">
     <img algin="center" src="https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg" />
   </a>
   
@@ -14,21 +14,24 @@
   🇯🇵 → 🇹🇭 → 🇺🇸 → 🇯🇵 → 🇩🇪 → 🇫🇷
 </div>
 
-## Tech Stack at Work
+## Side Projects
+![rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust)
+[![bevy](https://img.shields.io/badge/Bevy%20Game%20Engine-000?style=for-the-badge)](https://bevyengine.org/)
+![solidity](https://img.shields.io/badge/Solidity-000?style=for-the-badge&logo=solidity)
+![bash](https://img.shields.io/badge/Bash-000?style=for-the-badge&logo=gnu-bash)
+
+- [bevy_dioxus](https://github.com/JunichiSugiura/bevy_dioxus)
+- [dip](https://github.com/JunichiSugiura/dip)
+
+
+
+## At Work
 ![typescript](https://img.shields.io/badge/TypeScript-000?style=for-the-badge&logo=typescript)
 ![electron](https://img.shields.io/badge/Electron-000?style=for-the-badge&logo=electron&logoColor=white)
 ![react-native](https://img.shields.io/badge/React%20Native-000?style=for-the-badge&logo=react)
 
-- [ledgerjs](https://github.com/LedgerHQ/ledgerjs)
-- [ledger-live-common](https://github.com/LedgerHQ/ledger-live-common)
-- [ledger-live-mobile](https://github.com/LedgerHQ/ledger-live-mobile)
-- [ledger-live-desktop](https://github.com/LedgerHQ/ledger-live-desktop)
+- [ledger-live](https://github.com/LedgerHQ/ledger-live)
 
-## At Home
-![rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust)
-![solidity](https://img.shields.io/badge/Solidity-000?style=for-the-badge&logo=solidity)
-[![bevy](https://img.shields.io/badge/Bevy%20Game%20Engine-000?style=for-the-badge)](https://bevyengine.org/)
-![bash](https://img.shields.io/badge/Bash-000?style=for-the-badge&logo=gnu-bash)
 
 ## Setup
 ![macbook pro](https://img.shields.io/badge/M1%20Max%20MacBook%20Pro%2014'-000000?style=for-the-badge&logo=apple)
@@ -42,7 +45,7 @@
 ![bitcoin](https://img.shields.io/badge/Bitcoin-000000?style=for-the-badge&logo=bitcoin)
 ![ethereum](https://img.shields.io/badge/Ethereum-000000?style=for-the-badge&logo=ethereum)
 
-## Connect me on
+## Find me on
 
 [![twitter](https://img.shields.io/badge/Twitter-000?style=for-the-badge&logo=Twitter&logoColor=1DA1F2)](https://twitter.com/JunichiSugiura)
 
