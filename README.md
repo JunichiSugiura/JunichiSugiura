@@ -28,7 +28,7 @@
 
 
 
-## At Work
+## My Job
 ![typescript](https://img.shields.io/badge/TypeScript-000?style=for-the-badge&logo=typescript)
 ![electron](https://img.shields.io/badge/Electron-000?style=for-the-badge&logo=electron&logoColor=white)
 ![react-native](https://img.shields.io/badge/React%20Native-000?style=for-the-badge&logo=react)
