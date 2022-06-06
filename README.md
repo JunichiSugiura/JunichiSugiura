@@ -5,7 +5,7 @@
   
   <br />  <br />
   
-  <p>Hi there! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20px" /></p>
+  <p>Hi there! 👋</p>
   
   <p>Developer at <a target="_blank" href="https://shop.ledger.com?r=3ae057a09ca4">Ledger</a> in Paris.</p>
 
