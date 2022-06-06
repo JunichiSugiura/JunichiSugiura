@@ -17,12 +17,12 @@
 ## Side Projects
 ![rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust)
 [![bevy](https://img.shields.io/badge/Bevy%20Game%20Engine-000?style=for-the-badge)](https://bevyengine.org/)
-[![dioxus](https://img.shields.io/badge/Dioxus?style=for-the-badge)]([https://bevyengine.org/](https://dioxuslabs.com/))
+[![dioxus](https://img.shields.io/badge/Dioxus-000?style=for-the-badge)]([https://bevyengine.org/](https://dioxuslabs.com/))
 ![solidity](https://img.shields.io/badge/Solidity-000?style=for-the-badge&logo=solidity)
 ![bash](https://img.shields.io/badge/Bash-000?style=for-the-badge&logo=gnu-bash)
 
-- [bevy_dioxus](https://github.com/JunichiSugiura/bevy_dioxus)
-- [dip](https://github.com/JunichiSugiura/dip)
+- [bevy_dioxus](https://github.com/JunichiSugiura/bevy_dioxus) White cross-platform application with React-like declarative UI framework and scalable ECS architecture all in Rust.
+- [dip](https://github.com/JunichiSugiura/dip) Cross-platform text editor. Currently working on text buffer with piece tree algorithm.
 
 
 
