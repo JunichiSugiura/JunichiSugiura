@@ -21,8 +21,10 @@
 ![solidity](https://img.shields.io/badge/Solidity-000?style=for-the-badge&logo=solidity)
 ![bash](https://img.shields.io/badge/Bash-000?style=for-the-badge&logo=gnu-bash)
 
-- [bevy_dioxus](https://github.com/JunichiSugiura/bevy_dioxus) White cross-platform application with React-like declarative UI framework and scalable ECS architecture all in Rust.
-- [dip](https://github.com/JunichiSugiura/dip) Cross-platform text editor. Currently working on text buffer with piece tree algorithm.
+- [bevy_dioxus](https://github.com/JunichiSugiura/bevy_dioxus)
+  - White cross-platform application with React-like declarative UI framework and scalable ECS architecture all in Rust.
+- [dip](https://github.com/JunichiSugiura/dip)
+  - Cross-platform text editor. Currently working on text buffer with piece tree algorithm.
 
 
 
@@ -32,7 +34,7 @@
 ![react-native](https://img.shields.io/badge/React%20Native-000?style=for-the-badge&logo=react)
 
 - [ledger-live](https://github.com/LedgerHQ/ledger-live)
-
+  - Companion app for Ledger devices
 
 ## Setup
 ![macbook pro](https://img.shields.io/badge/M1%20Max%20MacBook%20Pro%2014'-000000?style=for-the-badge&logo=apple)
