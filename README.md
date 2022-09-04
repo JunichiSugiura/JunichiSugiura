@@ -21,10 +21,8 @@
 ![solidity](https://img.shields.io/badge/Solidity-000?style=for-the-badge&logo=solidity)
 ![bash](https://img.shields.io/badge/Bash-000?style=for-the-badge&logo=gnu-bash)
 
-- [bevy_dioxus](https://github.com/JunichiSugiura/bevy_dioxus)
-  - White cross-platform application with React-like declarative UI framework and scalable ECS architecture all in Rust.
-- [dip](https://github.com/JunichiSugiura/dip)
-  - Cross-platform text editor. Currently working on text buffer with piece tree algorithm.
+- [dip](https://github.com/diptools/dip)
+  - White cross-platform application with React-like declarative UI and scalable ECS architecture all in Rust.
 
 
 
