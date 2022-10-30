@@ -1,0 +1,4 @@
+[submodule "Internal"]
+	path = docs/handbook/Internal
+	url = https://github.com/JunichiSugiura/handbook-internal.git
+	branch = main
