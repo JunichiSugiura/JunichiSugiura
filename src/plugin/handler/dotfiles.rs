@@ -1,21 +1,25 @@
-use crate::plugin::cli::*;
+use crate::plugin::{cli::*, ApplyDotfiles};
 use dip::bevy::{
-    app::{App, AppExit, Plugin},
-    ecs::event::{EventReader, EventWriter},
+    app::{App, Plugin},
+    ecs::{
+        event::{EventReader, EventWriter},
+        schedule::ParallelSystemDescriptorCoercion,
+    },
 };
 
 pub struct DotfilesHandlerPlugin;
 
 impl Plugin for DotfilesHandlerPlugin {
     fn build(&self, app: &mut App) {
-        app.add_plugin(DotfilesActionPlugin).add_system(apply);
+        app.add_plugin(DotfilesActionPlugin)
+            .add_system(apply.label("apply_dotfiles"));
     }
 }
 
-fn apply(mut actions: EventReader<ApplyDotfilesAction>, mut app_exit: EventWriter<AppExit>) {
-    for action in actions.iter() {
-        println!("{action:?}");
+// Systems
 
-        app_exit.send(AppExit);
+fn apply(mut actions: EventReader<ApplyDotfilesAction>, mut apply: EventWriter<ApplyDotfiles>) {
+    for _action in actions.iter() {
+        apply.send(ApplyDotfiles);
     }
 }
