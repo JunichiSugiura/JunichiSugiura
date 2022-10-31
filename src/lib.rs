@@ -1,3 +1,3 @@
-mod plugin;
+mod bundle;
 
-pub use crate::plugin::*;
+pub use crate::bundle::*;

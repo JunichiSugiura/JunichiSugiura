@@ -1,19 +1,19 @@
 use dip::bevy::app::{App, Plugin};
 use std::{fs, path::PathBuf};
 
-pub struct ConfigPlugin;
+pub struct BundleConfigPlugin;
 
-impl Plugin for ConfigPlugin {
+impl Plugin for BundleConfigPlugin {
     fn build(&self, app: &mut App) {
-        app.init_resource::<Config>();
+        app.init_resource::<BundleConfig>();
     }
 }
 
-pub struct Config {
+pub struct BundleConfig {
     app_path: PathBuf,
 }
 
-impl Default for Config {
+impl Default for BundleConfig {
     fn default() -> Self {
         Self {
             app_path: dirs::home_dir().unwrap().join(".dip"),
@@ -21,7 +21,7 @@ impl Default for Config {
     }
 }
 
-impl Config {
+impl BundleConfig {
     pub fn app_path(&self) -> PathBuf {
         Self::ensure_dir(&self.app_path);
 

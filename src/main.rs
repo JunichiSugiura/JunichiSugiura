@@ -1,9 +1,9 @@
 use dip::bevy::{app::App, log::LogPlugin};
-use dotfiles::DotfilesPlugin;
+use dip_bundle::BundlePlugin;
 
 fn main() {
     App::new()
-        .add_plugin(DotfilesPlugin)
+        .add_plugin(BundlePlugin)
         .add_plugin(LogPlugin)
         .run();
 }

@@ -1,10 +1,11 @@
-use crate::plugin::{ApplyDotfiles, InstallDotfiles};
+use crate::bundle::ApplyBundle;
 use dip::bevy::{
     app::{App, AppExit, Plugin},
     ecs::{
         event::{EventReader, EventWriter},
         schedule::ParallelSystemDescriptorCoercion,
     },
+    log,
 };
 use std::{
     env,
@@ -15,16 +16,17 @@ pub struct HomebrewPlugin;
 
 impl Plugin for HomebrewPlugin {
     fn build(&self, app: &mut App) {
-        app.add_system(install.after("dotfiles"))
-            .add_system(apply.after("dotfiles"));
+        app.add_system(install.after("apply_bundle").before(apply))
+            .add_system(apply.after("apply_bundle"));
     }
 }
 
 // Systems
 
-fn install(mut events: EventReader<InstallDotfiles>, mut app_exit: EventWriter<AppExit>) {
+fn install(mut events: EventReader<ApplyBundle>, mut app_exit: EventWriter<AppExit>) {
     for _e in events.iter() {
-        // TODO: change current_path to somewhere absolute
+        log::warn!("TODO: change current_path to somewhere absolute");
+
         let current_path = env::current_dir().expect("Failed to get current directory.");
         let brewfile_path = current_path
             .join("plugins")
@@ -47,6 +49,7 @@ fn install(mut events: EventReader<InstallDotfiles>, mut app_exit: EventWriter<A
                 .expect("Failed to parse Homebrew installation script into text");
 
                 println!("{install_script:?}");
+                log::warn!("TODO: Run install.sh");
 
                 // let output = Command::new("/bin/bash")
                 //     .args([
@@ -72,8 +75,10 @@ fn install(mut events: EventReader<InstallDotfiles>, mut app_exit: EventWriter<A
     }
 }
 
-fn apply(mut events: EventReader<ApplyDotfiles>, mut app_exit: EventWriter<AppExit>) {
+fn apply(mut events: EventReader<ApplyBundle>, mut app_exit: EventWriter<AppExit>) {
     for _e in events.iter() {
+        log::warn!("TODO: change current_path to somewhere absolute");
+
         let current_path = env::current_dir().expect("Failed to get current directory.");
         let brewfile_path = current_path
             .join("plugins")

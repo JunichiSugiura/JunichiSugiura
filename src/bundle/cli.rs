@@ -9,6 +9,5 @@ pub struct Cli {
 
 #[derive(SubcommandPlugin, clap::Subcommand, Clone)]
 pub enum Action {
-    Install,
     Apply,
 }

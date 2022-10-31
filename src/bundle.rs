@@ -1,10 +1,9 @@
 pub mod cli;
 pub mod config;
-pub mod event;
 pub mod tool;
 
 use cli::{Action, ActionPlugin, CliPlugin};
-use config::ConfigPlugin;
+use config::BundleConfigPlugin;
 use dip::{
     bevy::{
         app::{App, Plugin},
@@ -15,35 +14,32 @@ use dip::{
     },
     core::task::NoAsyncAction,
 };
-use event::*;
 use tool::ToolPlugin;
 
-pub struct DotfilesPlugin;
+pub struct BundlePlugin;
 
-impl Plugin for DotfilesPlugin {
+impl Plugin for BundlePlugin {
     fn build(&self, app: &mut App) {
-        app.add_event::<InstallDotfiles>()
-            .add_event::<ApplyDotfiles>()
-            .add_plugin(ConfigPlugin)
+        app.add_event::<ApplyBundle>()
+            .add_plugin(BundleConfigPlugin)
             .add_plugin(CliPlugin::<NoAsyncAction>::application())
             .add_plugin(ActionPlugin)
             .add_plugin(ToolPlugin)
-            .add_system(action_handler.label("dotfiles"));
+            .add_system(action_handler.label("apply_bundle"));
     }
 }
 
-fn action_handler(
-    mut actions: EventReader<Action>,
-    mut install: EventWriter<InstallDotfiles>,
-    mut apply: EventWriter<ApplyDotfiles>,
-) {
+// Events
+
+pub struct ApplyBundle;
+
+// Systems
+
+fn action_handler(mut actions: EventReader<Action>, mut apply: EventWriter<ApplyBundle>) {
     for action in actions.iter() {
         match action {
-            Action::Install => {
-                install.send(InstallDotfiles);
-            }
             Action::Apply => {
-                apply.send(ApplyDotfiles);
+                apply.send(ApplyBundle);
             }
         }
     }

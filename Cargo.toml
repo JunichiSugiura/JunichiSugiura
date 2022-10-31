@@ -1,12 +1,12 @@
 [package]
-name = "dotfiles"
+name = "dip_bundle"
 version = "0.0.1"
 edition = "2021" 
 publish = false
 
 
 [[bin]]
-name = "dotfiles"
+name = "dip_bundle"
 path = "src/main.rs"
 
 [dependencies]
