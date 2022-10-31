@@ -1,0 +1,19 @@
+[package]
+name = "dotfiles"
+version = "0.0.1"
+edition = "2021" 
+publish = false
+
+
+[[bin]]
+name = "dotfiles"
+path = "src/main.rs"
+
+[dependencies]
+dip = "0.1"
+clap = { version = "3.2", features = ["derive"] }
+
+[patch.crates-io]
+# dip = { git = "https://github.com/diptools/dip", branch = "main" }
+dip = { path = "../../diptools/dip" }
+
