@@ -24,6 +24,7 @@ impl Plugin for HomebrewPlugin {
 fn apply(mut events: EventReader<ApplyDotfiles>, mut app_exit: EventWriter<AppExit>) {
     for _e in events.iter() {
         println!("Applying homebrew bundle...");
+
         let current_path = env::current_dir().expect("Failed to get current directory.");
         let brewfile_path = current_path
             .join("plugins")
