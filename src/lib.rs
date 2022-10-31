@@ -1,4 +1,3 @@
 mod plugin;
-mod resource;
 
-pub use crate::plugin::DotfilesPlugin;
+pub use crate::plugin::*;

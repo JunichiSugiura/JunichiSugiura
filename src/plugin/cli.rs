@@ -9,12 +9,6 @@ pub struct Cli {
 
 #[derive(SubcommandPlugin, clap::Subcommand, Clone)]
 pub enum Action {
-    #[clap(subcommand)]
-    Dotfiles(DotfilesAction),
-}
-
-#[derive(SubcommandPlugin, clap::Subcommand, Clone)]
-pub enum DotfilesAction {
     Install,
     Apply,
 }

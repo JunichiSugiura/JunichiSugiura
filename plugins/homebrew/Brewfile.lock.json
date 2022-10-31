@@ -20,13 +20,13 @@
         "revision": "209f59cda890de69b74c224982591642c21323d3"
       },
       "homebrew/cask": {
-        "revision": "f11b87600d018f74c10d8998cfff96f2bf6d69d3"
+        "revision": "954e2ed7e33431124e4f529d9c1b503f98dcf3ba"
       },
       "homebrew/cask-fonts": {
         "revision": "388140d8331c39ec97c81debacb787119466f7f3"
       },
       "homebrew/cask-versions": {
-        "revision": "be25a329b8223413d213913879e9c12f3f0beb8c"
+        "revision": "8188f9aec3a2cc06a2434bdc059bb6c05d23f5b6"
       },
       "homebrew/services": {
         "revision": "1946df301f135a36b96e5471d538104beb858574"
@@ -2296,7 +2296,7 @@
         }
       },
       "docker": {
-        "version": "4.13.0,89412",
+        "version": "4.13.1,90346",
         "options": {
           "full_name": "docker",
           "args": {
@@ -2540,7 +2540,7 @@
       "ventura": {
         "HOMEBREW_VERSION": "3.6.7",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "3768ae96c6f7636f4868f8fca15b5339b9fdec6f",
+        "Homebrew/homebrew-core": "691a699d73cb241ea2b090b20c74aa91e886cb38",
         "CLT": "",
         "Xcode": "14.0.1",
         "macOS": "13.0"

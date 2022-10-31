@@ -15,8 +15,8 @@ pub struct HomebrewPlugin;
 
 impl Plugin for HomebrewPlugin {
     fn build(&self, app: &mut App) {
-        app.add_system(install.after("install_dotfiles"))
-            .add_system(apply.after("apply_dotfiles"));
+        app.add_system(install.after("dotfiles"))
+            .add_system(apply.after("dotfiles"));
     }
 }
 
@@ -24,6 +24,7 @@ impl Plugin for HomebrewPlugin {
 
 fn install(mut events: EventReader<InstallDotfiles>, mut app_exit: EventWriter<AppExit>) {
     for _e in events.iter() {
+        // TODO: change current_path to somewhere absolute
         let current_path = env::current_dir().expect("Failed to get current directory.");
         let brewfile_path = current_path
             .join("plugins")
