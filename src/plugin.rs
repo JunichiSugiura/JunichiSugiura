@@ -1,6 +1,6 @@
 mod cli;
 mod handler;
-mod homebrew;
+mod tool;
 
 use crate::plugin::cli::{ActionPlugin, CliPlugin};
 use dip::{
@@ -8,7 +8,7 @@ use dip::{
     core::task::NoAsyncAction,
 };
 
-use self::{handler::HandlerPlugin, homebrew::HomebrewPlugin};
+use self::{handler::HandlerPlugin, tool::*};
 
 // Events
 
@@ -25,6 +25,6 @@ impl Plugin for DotfilesPlugin {
             .add_plugin(CliPlugin::<NoAsyncAction>::application())
             .add_plugin(ActionPlugin)
             .add_plugin(HandlerPlugin)
-            .add_plugin(HomebrewPlugin);
+            .add_plugin(ToolPlugin);
     }
 }
