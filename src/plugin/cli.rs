@@ -15,5 +15,6 @@ pub enum Action {
 
 #[derive(SubcommandPlugin, clap::Subcommand, Clone)]
 pub enum DotfilesAction {
+    Install,
     Apply,
 }

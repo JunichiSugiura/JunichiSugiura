@@ -11,7 +11,8 @@ use dip::{
 use self::{handler::HandlerPlugin, homebrew::HomebrewPlugin};
 
 // Events
-// pub struct InstallDotfiles;
+
+pub struct InstallDotfiles;
 
 pub struct ApplyDotfiles;
 
@@ -19,7 +20,8 @@ pub struct DotfilesPlugin;
 
 impl Plugin for DotfilesPlugin {
     fn build(&self, app: &mut App) {
-        app.add_event::<ApplyDotfiles>()
+        app.add_event::<InstallDotfiles>()
+            .add_event::<ApplyDotfiles>()
             .add_plugin(CliPlugin::<NoAsyncAction>::application())
             .add_plugin(ActionPlugin)
             .add_plugin(HandlerPlugin)
