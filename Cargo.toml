@@ -13,8 +13,9 @@ path = "src/main.rs"
 dip = "0.1"
 dirs = "4"
 clap = { version = "3.2", features = ["derive"] }
-reqwest = { version = "0.11", features = ["blocking"] }
 cmd_lib = "1"
+reqwest = { version = "0.11", features = ["blocking"] }
+tempfile = "3"
 
 [patch.crates-io]
 # dip = { git = "https://github.com/diptools/dip", branch = "main" }
