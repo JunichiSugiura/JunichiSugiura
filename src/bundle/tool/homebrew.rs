@@ -29,7 +29,7 @@ impl Plugin for HomebrewPlugin {
 fn install(mut events: EventReader<ApplyBundle>, mut app_exit: EventWriter<AppExit>) {
     for ApplyBundle { action } in events.iter() {
         if run_fun!(which brew).is_ok() {
-            log::info!("🟡 Skip Install Homebrew");
+            log::info!("🟡 Skip: Install Homebrew");
         } else {
             log::info!("📌 Install Homebrew");
 
