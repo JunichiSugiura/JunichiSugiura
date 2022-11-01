@@ -9,5 +9,8 @@ pub struct Cli {
 
 #[derive(SubcommandPlugin, clap::Subcommand, Clone)]
 pub enum Action {
-    Apply,
+    Apply {
+        #[clap(short, long, required = false)]
+        verbose: bool,
+    },
 }

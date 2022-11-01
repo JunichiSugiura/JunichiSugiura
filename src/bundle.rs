@@ -2,7 +2,7 @@ pub mod cli;
 pub mod config;
 pub mod tool;
 
-use cli::{Action, ActionPlugin, CliPlugin};
+use cli::{ActionPlugin, ApplyAction, CliPlugin};
 use config::BundleConfigPlugin;
 use dip::{
     bevy::{
@@ -25,22 +25,22 @@ impl Plugin for BundlePlugin {
             .add_plugin(CliPlugin::<NoAsyncAction>::application())
             .add_plugin(ActionPlugin)
             .add_plugin(ToolPlugin)
-            .add_system(action_handler.label("apply_bundle"));
+            .add_system(apply_bundle.label("apply_bundle"));
     }
 }
 
 // Events
 
-pub struct ApplyBundle;
+pub struct ApplyBundle {
+    pub action: ApplyAction,
+}
 
 // Systems
 
-fn action_handler(mut actions: EventReader<Action>, mut apply: EventWriter<ApplyBundle>) {
+fn apply_bundle(mut actions: EventReader<ApplyAction>, mut apply: EventWriter<ApplyBundle>) {
     for action in actions.iter() {
-        match action {
-            Action::Apply => {
-                apply.send(ApplyBundle);
-            }
-        }
+        apply.send(ApplyBundle {
+            action: action.clone(),
+        });
     }
 }
