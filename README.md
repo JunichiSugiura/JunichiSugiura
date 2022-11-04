@@ -1,3 +1,4 @@
+
 <div align="center">
   <a href="https://shop.ledger.com?r=3ae057a09ca4">
     <img algin="center" src="https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg" />
@@ -21,20 +22,26 @@
 ![solidity](https://img.shields.io/badge/Solidity-000?style=for-the-badge&logo=solidity)
 ![bash](https://img.shields.io/badge/Bash-000?style=for-the-badge&logo=gnu-bash)
 
-- [dip](https://github.com/diptools/dip)
-  - White cross-platform application with React-like declarative UI and scalable ECS architecture all in Rust.
+### [dip](https://github.com/diptools/dip)
 
+White cross-platform application with React-like declarative UI and scalable ECS architecture all in Rust.
 
+### [My handbook](handbook/README.md)
+
+Store all my knowledge in one place.
 
 ## My Job
+
 ![typescript](https://img.shields.io/badge/TypeScript-000?style=for-the-badge&logo=typescript)
 ![electron](https://img.shields.io/badge/Electron-000?style=for-the-badge&logo=electron&logoColor=white)
 ![react-native](https://img.shields.io/badge/React%20Native-000?style=for-the-badge&logo=react)
 
-- [ledger-live](https://github.com/LedgerHQ/ledger-live)
-  - Companion app for Ledger devices
+### [ledger-live](https://github.com/LedgerHQ/ledger-live)
+
+Companion app for Ledger devices
 
 ## Setup
+
 ![macbook pro](https://img.shields.io/badge/M1%20Max%20MacBook%20Pro%2014'-000000?style=for-the-badge&logo=apple)
 ![terminal](https://img.shields.io/badge/Alacritty-000000?style=for-the-badge&logo=alacritty)
 ![editor](https://img.shields.io/badge/Neovim-000000?style=for-the-badge&logo=neovim)
@@ -57,6 +64,7 @@
 [JunichiSugiura/dotfiles (Legacy)](https://github.com/JunichiSugiura/dotfiles)
 
 ## HODL
+
 ![bitcoin](https://img.shields.io/badge/Bitcoin-000000?style=for-the-badge&logo=bitcoin)
 ![ethereum](https://img.shields.io/badge/Ethereum-000000?style=for-the-badge&logo=ethereum)
 

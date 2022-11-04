@@ -1,7 +1,7 @@
 
 <div align="center">
 	<h2>Welcome to my handbook!</h2>
-	<p>All our knowledge in one place.</p>
+	<p>All my knowledge in one place.</p>
 </div>
 
 ## Installation
