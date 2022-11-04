@@ -1,3 +1,7 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "interfaceFontFamily": "",
+  "enabledCssSnippets": [
+    "disable-font-ligatures"
+  ]
 }

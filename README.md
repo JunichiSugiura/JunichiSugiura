@@ -40,7 +40,21 @@
 ![editor](https://img.shields.io/badge/Neovim-000000?style=for-the-badge&logo=neovim)
 ![browser](https://img.shields.io/badge/Brave-000000?style=for-the-badge&logo=brave)
 
-- [JunichiSugiura/dotfiles](https://github.com/JunichiSugiura/dotfiles)
+### Dotfiles
+
+
+**macOS**
+
+```sh
+# TODO: Install dip
+# some sort of shell to install dip
+# curl --proto '=https' --tlsv1.2 -sSf https://dip.tools/install.sh | sh
+
+# TODO: Apply Bundle
+# dip bundle apply
+```
+
+[JunichiSugiura/dotfiles (Legacy)](https://github.com/JunichiSugiura/dotfiles)
 
 ## HODL
 ![bitcoin](https://img.shields.io/badge/Bitcoin-000000?style=for-the-badge&logo=bitcoin)
