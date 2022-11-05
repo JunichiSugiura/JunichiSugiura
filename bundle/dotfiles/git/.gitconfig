@@ -1,0 +1,47 @@
+[user]
+	name       = JunichiSugiura
+	email      = jun.sugiura.jp@gmail.com
+	signingkey = 36E13C2D34E47F45
+[alias]
+	s   = status -sb
+	d   = diff
+	a   = add
+	aa  = add -A
+	b   = branch
+	co  = checkout
+	cob = checkout -b
+	c   = commit
+	cm  = commit -m
+	pso = push origin
+	pl  = pull
+	plo = pull origin
+	f   = fetch
+	fup = fetch upstream
+[core]
+	excludesfile = ~/.gitignore
+	editor = code --wait
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/MacGPG2/bin/gpg
+[pull]
+	rebase = false
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[pager]
+    diff = delta
+    log = delta
+    reflog = delta
+    show = delta
+[delta]
+    line-numbers = true
+    side-by-side = true
+[interactive]
+    diffFilter = delta --color-only
+; [url "git@github.com:"]
+;   insteadOf = https://github.com/

@@ -1,0 +1,31 @@
+add_newline = false
+# command_timeout = 3000
+
+[character]
+success_symbol = "🦄 " 
+error_symbol = "🥺 "
+
+[git_status]
+style = "bold white"
+conflicted = " 🏳"
+ahead = " 🏎💨 "
+behind =" 😰 "
+diverged = " 😵 "
+untracked = " 🤷‍ "
+stashed = " 📦 "
+modified = " 📝 "
+staged = '[++\($count\)](green)'
+renamed = " 👅 "
+deleted = " 🗑 "
+
+[gcloud]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[ruby]
+disabled = true
+
+[rust]
+disabled = true

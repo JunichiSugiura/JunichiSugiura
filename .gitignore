@@ -7,5 +7,5 @@
 
 .vscode/*
 
-/docs/handbook/.obsidian/workspace.json
+.obsidian/workspace.json
 
