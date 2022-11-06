@@ -8,6 +8,10 @@ if [ -f "/opt/homebrew/bin/brew"  ]; then
     . $(brew --prefix asdf)/libexec/asdf.sh
 fi
 
+if [ -d "$HOME/.cargo/bin"  ]; then
+    source ~/.cargo/env
+fi
+
 alias code="open -a 'Visual Studio Code'"
 alias syncsh=". syncsh"
 alias cdrepo=". cdrepo"

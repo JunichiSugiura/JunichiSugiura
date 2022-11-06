@@ -203,25 +203,25 @@ if ! is_file ~/prysm/prysm.sh; then
     )
 fi
 
-###########################################################
-# Alacritty
-###########################################################
-ALACRITTY_ORG_PATH="$GIT_CLONE_PATH/alacritty"
-ensure_dir "$ALACRITTY_ORG_PATH"
-if ! is_dir "$ALACRITTY_ORG_PATH/alacritty"; then
-    (
-        cd "$ALACRITTY_ORG_PATH"
-        gh repo clone alacritty/alacritty
-    )
-fi
+############################################################
+## Alacritty
+############################################################
+#ALACRITTY_ORG_PATH="$GIT_CLONE_PATH/alacritty"
+#ensure_dir "$ALACRITTY_ORG_PATH"
+#if ! is_dir "$ALACRITTY_ORG_PATH/alacritty"; then
+#    (
+#        cd "$ALACRITTY_ORG_PATH"
+#        gh repo clone alacritty/alacritty
+#    )
+#fi
 
-if ! is_dir /Applications/Alacritty.app; then
-    log "Build alacritty"
-    (
-        cd "$ALACRITTY_ORG_PATH/alacritty"
+#if ! is_dir /Applications/Alacritty.app; then
+#    log "Build alacritty"
+#    (
+#        cd "$ALACRITTY_ORG_PATH/alacritty"
 
-        rustup target add x86_64-apple-darwin aarch64-apple-darwin
-        make app-universal
-        cp -r target/release/osx/Alacritty.app /Applications/
-    )
-fi
+#        rustup target add x86_64-apple-darwin aarch64-apple-darwin
+#        make app-universal
+#        cp -r target/release/osx/Alacritty.app /Applications/
+#    )
+#fi
