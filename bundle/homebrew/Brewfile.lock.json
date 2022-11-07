@@ -20,13 +20,13 @@
         "revision": "209f59cda890de69b74c224982591642c21323d3"
       },
       "homebrew/cask": {
-        "revision": "c9f757e275879ffbc0cfd417012e90081a227445"
+        "revision": "b020ad34e9d208b8dad3acf8aaad994215889aa2"
       },
       "homebrew/cask-fonts": {
-        "revision": "f3cc9512724757a3e28bfc8b39728320045fbd10"
+        "revision": "82d6f65d897625dff502d7127514e9ffe561d331"
       },
       "homebrew/cask-versions": {
-        "revision": "ba4ce02508af0396f59dddf0bb9993b5a73c061d"
+        "revision": "87afef1e84f3b79d8cea99b8e9312ce4072aa783"
       },
       "homebrew/services": {
         "revision": "b8025961f8175f852f789624624915595782b5d8"
@@ -645,6 +645,11 @@
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
+            "arm64_ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/git-cliff/blobs/sha256:3ad15aad29be9cee631779fddaf32a91e7dd0c556e8393d1e9bbfd82833f9135",
+              "sha256": "3ad15aad29be9cee631779fddaf32a91e7dd0c556e8393d1e9bbfd82833f9135"
+            },
             "arm64_monterey": {
               "cellar": ":any_skip_relocation",
               "url": "https://ghcr.io/v2/homebrew/core/git-cliff/blobs/sha256:9439d7732cfbe058b31a5185726be7570bf91ac25d679df48e15e44ba695a246",
@@ -1437,6 +1442,11 @@
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
+            "arm64_ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/sk/blobs/sha256:74d93c2ac904841d024b3c44122e5d11621bb16153d672c12a9335d05d6825dd",
+              "sha256": "74d93c2ac904841d024b3c44122e5d11621bb16153d672c12a9335d05d6825dd"
+            },
             "arm64_monterey": {
               "cellar": ":any_skip_relocation",
               "url": "https://ghcr.io/v2/homebrew/core/sk/blobs/sha256:7c651b86b1587de405d3e4412f045229245873e5136a18f6e3f5a498053dec96",
@@ -2557,9 +2567,9 @@
         "macOS": "12.6"
       },
       "ventura": {
-        "HOMEBREW_VERSION": "3.6.8",
+        "HOMEBREW_VERSION": "3.6.9",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "269d931010e58803b480ab41eaf279cb431f901f",
+        "Homebrew/homebrew-core": "e3bbca8163512037b95616cb3e2961e7b72450f6",
         "CLT": "14.1.0.0.1.1666437224",
         "Xcode": "14.1",
         "macOS": "13.0"
