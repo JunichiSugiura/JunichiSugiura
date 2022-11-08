@@ -17,7 +17,6 @@ alias syncsh=". syncsh"
 alias cdrepo=". cdrepo"
 alias lscmd="ls ~/scripts"
 alias pr="gh pr view --web"
-alias prysm="~/prysm/prysm.sh"
 alias lldlib="open ~/Library/Application\ Support/Electron"
 alias sim="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/"
 alias keycodes="cat /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Events.h"
@@ -37,7 +36,7 @@ alias lt="ll -TL 3 --ignore-glob=.git"
 alias ps="procs"
 alias top="ytop"
 # Temporary for neovim v0.8
-alias vi="$HOME/nvim-macos/bin/nvim"
+alias vi=/opt/homebrew/bin/nvim
 alias du="dust"
 
 if [ -d "/opt/homebrew/opt/ruby/bin" ]; then

@@ -2,10 +2,6 @@
  
 set -e 
 
-# GITHUB_PATH=~/projects/github.com
-# GIT_CLONE_PATH="$GITHUB_PATH/JunichiSugiura"
-
-
 ###########################################################
 # Utils
 ###########################################################
@@ -93,29 +89,10 @@ for plugin in $(asdf plugin list); do
     fi
 done
 
-system_node_path=/usr/local/bin/node
-if ! is_file "$system_node_path"; then
-    log "Create symlink to $system_node_path so that XCode can reference"
-    ln -s ~/.asdf/shims/node "$system_node_path"
-fi
-
 ###########################################################
 # Yarn global
 ###########################################################
 if ! is_dir ~/.config/yarn/global/node_modules; then
     log 'Setup Yarn global'
     yarn global add
-fi
-
-if ! is_file ~/prysm/prysm.sh; then
-    log 'Setup Ethereum 2.0 client'
-    if ! is_dir ~/prysm; then
-        mkdir ~/prysm
-    fi
-
-    (
-        cd ~/prysm
-        curl https://raw.githubusercontent.com/prysmaticlabs/prysm/master/prysm.sh --output prysm.sh
-        chmod +x prysm.sh
-    )
 fi
