@@ -24,13 +24,6 @@ is_dir() {
     [ -d "$path" ]
 }
 
-ensure_dir() {
-    path="$1"
-    if ! is_dir "$path"; then
-        mkdir -p "$path"
-    fi
-}
-
 ###########################################################
 # Neovim
 ###########################################################
@@ -46,11 +39,10 @@ if ! is_dir "$plugged_path"; then
     nvim +PlugInstall +qall
 fi
 
-
-
 ###########################################################
 # GitHub CLI Login
 ###########################################################
+log "Check GitHub auth status"
 if ! gh auth status; then
     log 'Login with GitHub CLI'
     gh auth login
@@ -96,10 +88,6 @@ is_runtime_versions_changed () {
 
 for plugin in $(asdf plugin list); do
     if is_runtime_versions_changed "$plugin"; then
-        if [ "$plugin" = nodejs ]; then log "Import release team keyring for Node.JS"
-            bash -c '${ASDF_DATA_DIR:=$HOME/.asdf}/plugins/nodejs/bin/import-release-team-keyring'
-        fi
-
         log "Install runtime: $plugin"
         asdf install "$plugin"
     fi
