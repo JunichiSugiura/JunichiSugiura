@@ -46,6 +46,16 @@ if ! is_dir "$plugged_path"; then
     nvim +PlugInstall +qall
 fi
 
+
+
+###########################################################
+# GitHub CLI Login
+###########################################################
+if ! gh auth status; then
+    log 'Login with GitHub CLI'
+    gh auth login
+fi
+
 ###########################################################
 # Git GPG Signing Key
 ###########################################################
@@ -53,8 +63,9 @@ if ! is_dir ~/.gnupg || [ -z "$(gpg --list-secret-keys --keyid-format LONG)" ]; 
     log 'Install gpg signing with git'
     gpg --default-new-key-algo rsa4096 --gen-key
     key_id=$(gpg --list-secret-keys --keyid-format LONG | ggrep -oP "rsa4096\/[0-9a-fA-F]{16}" | cut -d"/"  -f2)
+
     log 'Copy and pates the GPG key below to GitHub'
-    gpg --armor --export "$key_id"
+    public_key=$(gpg --armor --export "$key_id")
     git config --global user.signingkey "$key_id"
 fi
 

@@ -1,7 +1,7 @@
 [user]
 	name       = JunichiSugiura
 	email      = jun.sugiura.jp@gmail.com
-	signingkey = 8A514EEE035EC6DF
+	signingkey = 8F2D8503093367BB
 [alias]
 	s   = status -sb
 	d   = diff
@@ -45,3 +45,9 @@
     diffFilter = delta --color-only
 ; [url "git@github.com:"]
 ;   insteadOf = https://github.com/
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
