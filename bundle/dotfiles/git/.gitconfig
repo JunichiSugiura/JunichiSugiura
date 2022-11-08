@@ -1,7 +1,7 @@
 [user]
 	name       = JunichiSugiura
 	email      = jun.sugiura.jp@gmail.com
-	signingkey = 8F2D8503093367BB
+	signingkey = 3642D90AE7B139D0
 [alias]
 	s   = status -sb
 	d   = diff
