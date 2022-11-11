@@ -38,7 +38,6 @@ mas "Xcode", id: 497799835
 brew "skhd"
 brew "yabai"
 
-
 # Low priority
 
 brew "applesimutils"
