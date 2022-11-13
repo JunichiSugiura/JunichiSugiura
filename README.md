@@ -26,7 +26,7 @@
 
 White cross-platform application with React-like declarative UI and scalable ECS architecture all in Rust.
 
-### [My handbook](handbook/README.md)
+### [My handbook](docs/handbook/README.md)
 
 Store all my knowledge in one place.
 
