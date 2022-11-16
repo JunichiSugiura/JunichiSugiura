@@ -13,13 +13,6 @@ if [ -d "$HOME/.cargo/bin"  ]; then
 fi
 
 alias code="open -a 'Visual Studio Code'"
-alias syncsh=". syncsh"
-alias cdrepo=". cdrepo"
-alias lscmd="ls ~/scripts"
-alias pr="gh pr view --web"
-alias lldlib="open ~/Library/Application\ Support/Electron"
-alias sim="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/"
-alias keycodes="cat /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Events.h"
 
 # Override
 if [ -n "$(which z)" ]; then
@@ -229,8 +222,3 @@ ex=:\
 *.pdf=:\
 *.nix=:\
 "
-
-# pnpm
-export PNPM_HOME="/Users/js/Library/pnpm"
-export PATH="$PNPM_HOME:$PATH"
-# pnpm end

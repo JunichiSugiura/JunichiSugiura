@@ -1,18 +1,56 @@
 ##################################################
+# Cargo
+##################################################
+
+# List doesn't seem to work.
+let-env PATH = ($'($env.HOME)/.cargo/bin:($env.PATH)')
+
+##################################################
 # Homebrew
 ##################################################
 
-let-env PATH = ($env.PATH | prepend '/opt/homebrew/bin')
+let-env PATH = ($'/opt/homebrew/bin:($env.PATH)')
+
+##################################################
+# Homebrew Ruby
+##################################################
+
+let-env PATH = ($'/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.0.0/bin:($env.PATH)')
+
+##################################################
+# asdf
+##################################################
+
+let-env PATH = ($'($env.HOME)/.asdf/shims/:($env.PATH)')
+
+##################################################
+# pnpm
+##################################################
+
+let-env PATH = ($'($env.HOME)/.asdf/shims/:($env.PATH)')
+let-env PNPM_HOME = ($'($env.HOME)/Library/pnpm') 
+let-env PATH = ($'($env.PNPM_HOME):($env.PATH)')
 
 ##################################################
 # Zoxide
 ##################################################
 
-zoxide init nushell | save ~/.zoxide.nu
+if (which zoxide | is-empty) == false {
+    zoxide init nushell | save $'($env.HOME)/.zoxide.nu'
+}
 
 ##################################################
 # Starship
 ##################################################
 
-mkdir ~/.cache/starship
-starship init nu | sed "s/size -c/size/" | save ~/.cache/starship/init.nu
+if (which starship | is-empty) == false {
+    mkdir ~/.cache/starship
+    starship init nu | sed "s/size -c/size/" | save ~/.cache/starship/init.nu
+}
+
+##################################################
+# FZF
+##################################################
+
+let-env FZF_DEFAULT_COMMAND = "rg --files --hidden -l -g '!.git/*' -g '!node_modules/*'"
+let-env FZF_DEFAULT_OPTS = "-m --height 100% --border --preview 'cat {}'"

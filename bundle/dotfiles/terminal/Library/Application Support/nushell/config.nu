@@ -23,11 +23,9 @@ source ~/.cache/starship/init.nu
 ##################################################
 
 # Conditional alias does not seem to work currently
+# https://github.com/nushell/nushell/issues/5068
 alias cd = z
-alias cat = bat
-alias vi = /opt/homebrew/bin/nvim
-
+alias vi = nvim
 alias ll = ls -la
 alias ps = procs
 alias top = ytop
-alias du = dust
