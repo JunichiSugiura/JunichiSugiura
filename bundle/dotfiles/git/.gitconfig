@@ -25,7 +25,7 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = /usr/local/MacGPG2/bin/gpg
+	program = /opt/homebrew/bin/gpg
 [pull]
 	rebase = false
 [filter "lfs"]

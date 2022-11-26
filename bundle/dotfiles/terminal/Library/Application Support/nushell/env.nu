@@ -17,17 +17,28 @@ let-env PATH = ($'/opt/homebrew/bin:($env.PATH)')
 
 let-env PATH = ($'/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.0.0/bin:($env.PATH)')
 
-##################################################
+###################################################
 # asdf
+###################################################
+
+# let-env PATH = ($'($env.HOME)/.asdf/shims/:($env.PATH)')
+
+##################################################
+# dip
 ##################################################
 
-let-env PATH = ($'($env.HOME)/.asdf/shims/:($env.PATH)')
+let-env PATH = ($'($env.HOME)/Library/Application Support/dip/bundle/shims:($env.PATH)')
+
+##################################################
+# GPG
+##################################################
+
+let-env GPG_TTY = (echo (tty))
 
 ##################################################
 # pnpm
 ##################################################
 
-let-env PATH = ($'($env.HOME)/.asdf/shims/:($env.PATH)')
 let-env PNPM_HOME = ($'($env.HOME)/Library/pnpm') 
 let-env PATH = ($'($env.PNPM_HOME):($env.PATH)')
 
