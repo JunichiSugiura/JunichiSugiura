@@ -29,7 +29,7 @@ White cross-platform application with React-like declarative UI and scalable ECS
 
 My GitHub Profile repository contains all my personal configuration. I'm more of a monorepo guy. Keeping Single Source of Truth helps me switching context.
 
-Here's some list...
+Here's some ideas on what it does...
 
 - [Bundle](https://github.com/JunichiSugiura/JunichiSugiura/tree/main/bundle): My dotfiles powered by `dip bundle` subcommand.
   - Setting up a new laptop in one shot (ideally) 🔫
