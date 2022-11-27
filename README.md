@@ -34,6 +34,7 @@ Here's some list...
 - [Bundle](https://github.com/JunichiSugiura/JunichiSugiura/tree/main/bundle): My dotfiles powered by `dip bundle` subcommand.
   - Setting up a new laptop in one shot (ideally) 🔫
   - `dip bundle apply` command looks for `<root>/bundle` direcotry and applies all the configuration.
+  - Written in Rust 🦀
   - Support
     - [Homebrew bundel](https://github.com/Homebrew/homebrew-bundle)
     - [GNU Stow](https://www.gnu.org/software/stow/) like symlink manager
