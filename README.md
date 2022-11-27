@@ -26,7 +26,17 @@
 
 White cross-platform application with React-like declarative UI and scalable ECS architecture all in Rust.
 
-### [My handbook](docs/handbook/README.md)
+### [JunichiSugiura/JunichiSugiura](https://github.com/JunichiSugiura/JunichiSugiura)
+
+This is not only for my GitHub Profile but also...
+
+
+### [My setup](https://github.com/JunichiSugiura/JunichiSugiura/tree/main/bundle)
+
+Dotfiles made to be used with `dip bundle apply` command.
+It supports, Homebrew bundle, stow like symlink manager, runtime version manager and more.
+
+#### [My handbook](docs/handbook/README.md)
 
 Store all my knowledge in one place.
 
