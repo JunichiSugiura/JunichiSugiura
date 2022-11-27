@@ -22,7 +22,7 @@
 ![solidity](https://img.shields.io/badge/Solidity-000?style=for-the-badge&logo=solidity)
 ![bash](https://img.shields.io/badge/Bash-000?style=for-the-badge&logo=gnu-bash)
 
-### [dip](https://github.com/diptools/dip)
+### [diptools/dip](https://github.com/diptools/dip)
 
 White cross-platform application with React-like declarative UI and scalable ECS architecture all in Rust.
 
@@ -45,7 +45,7 @@ Store all my knowledge in one place. Backed up Obsidian vault.
 ![electron](https://img.shields.io/badge/Electron-000?style=for-the-badge&logo=electron&logoColor=white)
 ![react-native](https://img.shields.io/badge/React%20Native-000?style=for-the-badge&logo=react)
 
-### [ledger-live](https://github.com/LedgerHQ/ledger-live)
+### [LedgerHQ/ledger-live](https://github.com/LedgerHQ/ledger-live)
 
 Companion app for Ledger devices
 
@@ -58,7 +58,6 @@ Companion app for Ledger devices
 
 ### Dotfiles
 
-
 **macOS**
 
 ```sh
@@ -66,11 +65,11 @@ Companion app for Ledger devices
 # some sort of shell to install dip
 # curl --proto '=https' --tlsv1.2 -sSf https://dip.tools/install.sh | sh
 
-# TODO: Apply Bundle
-# dip bundle apply
+# Apply Bundle
+dip bundle apply
 ```
 
-[JunichiSugiura/dotfiles (Legacy)](https://github.com/JunichiSugiura/dotfiles)
+[JunichiSugiura/dotfiles (Deprecated)](https://github.com/JunichiSugiura/dotfiles)
 
 ## HODL
 
