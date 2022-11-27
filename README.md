@@ -19,12 +19,24 @@
 
 ### [diptools/dip](https://github.com/diptools/dip)
 
-dip is aiming to provide essential tools to build Web3 applications runs everywhere. (desktop, CLI, game etc.)
+dip is a full-Rust Web3 application toolkit focus on ECS based event-driven development.
 
-All plugins are based on Bevy ECS design pattern.
-
-dip plugins are not only compatible with dekstop applications but also games like metaverse.
-It comes with React-like declarative UI powered by [Dioxus](https://github.com/dioxuslabs/dioxus).
+- All plugins are based on Bevy ECS design pattern.
+- Cross compatibility
+	- Games
+		- Web3 toolkit provided for Bevy game engine
+		- Metaverse compatible
+	- Desktop Application
+		- Cross-platform (Linux, macOS, Windows)
+		- React like declarative UI via [Dioxus](https://github.com/dioxuslabs/dioxus)
+	- Command Line Tools
+- Developer tools
+	- Command Line Tools ( `dip` );
+		- Bundle: Tools to setup your computer with one command
+			- Homebrew: Installs Homebrew formula, cask, mas via `brew bundle`
+      - Symlink manager aka Dotfiles: inspired by [GNU Stow](https://www.gnu.org/software/stow/).
+			- Version Manager: like `asdf`, `nvm`, `rbenv`, `gvm` etc.
+- Device: Talk with Ledger devices.
 
 ### [JunichiSugiura/JunichiSugiura](https://github.com/JunichiSugiura/JunichiSugiura)
 
@@ -34,20 +46,10 @@ Here's some ideas on what it does...
 
 - [Bundle](https://github.com/JunichiSugiura/JunichiSugiura/tree/main/bundle)
   - Setting up a new laptop in one shot (ideally) 🔫 It's the new dotfiles.
-  - `dip bundle apply` command looks for `<root>/bundle` direcotry and applies all the configuration.
-  - Written in Rust 🦀
-  - Support
-    - [Homebrew bundle](https://github.com/Homebrew/homebrew-bundle)
-      - formula
-      - cask
-      - tap
-      - macOS App Store via mas
-      - So basically all the desktop applications and CLI tools are installed automatically.
-    - [GNU Stow](https://www.gnu.org/software/stow/) like symlink manager
-    - [asdf](https://github.com/asdf-vm/asdf) like runtime version manager (Imagine `nvm` for Node.js)
+  - `dip bundle apply` command looks for `bundle/` direcotry and applies all the configuration.
 - [Handbook](docs/handbook/README.md)
   - My Obsidian based handbook.
-- [WIP] Website
+- Website (TBA)
 
 ## My Job
 
