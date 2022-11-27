@@ -32,7 +32,7 @@ This is not only for my GitHub Profile but also...
 
 #### [Bundle](https://github.com/JunichiSugiura/JunichiSugiura/tree/main/bundle)
 
-Dotfiles made to be used with `dip bundle apply` command.
+Dotfiles made for `dip bundle apply` command.
 It supports, Homebrew bundle, stow like symlink manager, runtime version manager and more.
 
 #### [Handbook](docs/handbook/README.md)
