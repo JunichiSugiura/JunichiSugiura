@@ -31,8 +31,8 @@ My GitHub Profile repository contains all my personal configuration. I'm more of
 
 Here's some ideas on what it does...
 
-- [Bundle](https://github.com/JunichiSugiura/JunichiSugiura/tree/main/bundle): My dotfiles powered by `dip bundle` subcommand.
-  - Setting up a new laptop in one shot (ideally) 🔫
+- [Bundle](https://github.com/JunichiSugiura/JunichiSugiura/tree/main/bundle)
+  - Setting up a new laptop in one shot (ideally) 🔫 It's the new dotfiles.
   - `dip bundle apply` command looks for `<root>/bundle` direcotry and applies all the configuration.
   - Written in Rust 🦀
   - Support
