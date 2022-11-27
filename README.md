@@ -44,7 +44,8 @@ Here's some ideas on what it does...
       - So basically all the desktop applications and CLI tools are installed automatically.
     - [GNU Stow](https://www.gnu.org/software/stow/) like symlink manager
     - [asdf](https://github.com/asdf-vm/asdf) like runtime version manager (Imagine `nvm` for Node.js)
-- [Handbook](docs/handbook/README.md): My Obsidian based handbook.
+- [Handbook](docs/handbook/README.md)
+  - My Obsidian based handbook.
 - [WIP] Website
 
 ## My Job
