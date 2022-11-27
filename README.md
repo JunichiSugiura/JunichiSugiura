@@ -27,20 +27,21 @@ White cross-platform application with React-like declarative UI and scalable ECS
 
 ### [JunichiSugiura/JunichiSugiura](https://github.com/JunichiSugiura/JunichiSugiura)
 
-This is not only for my GitHub Profile but also...
+My GitHub Profile repository contains all my personal configuration.
+I'm more of a monorepo guy. Having Single Source of Truth helps me switching context faster.
 
-#### [Bundle](https://github.com/JunichiSugiura/JunichiSugiura/tree/main/bundle)
+Here's some list...
 
-Dotfiles made for `dip bundle apply` command.
-
-It supports...
-- Homebrew bundle
-- GNU stow like symlink manager
-- Runtime version manager like asdf
-
-#### [Handbook](docs/handbook/README.md)
-
-My Obsidian based handbook. All my knoweadge should be there.
+- [Bundle](https://github.com/JunichiSugiura/JunichiSugiura/tree/main/bundle): My shiny new dotfiles powered by `dip bundle` subcommand.
+  - Setting up a new laptop in one shot (ideally) 🔫
+  - `dip bundle apply` command looks for `<root>bundle` direcotry and applies all the configuration.
+  - Support
+    - [Homebrew bundel](https://github.com/Homebrew/homebrew-bundle)
+    - [GNU Stow](https://www.gnu.org/software/stow/) like symlink manager
+    - [asdf](https://github.com/asdf-vm/asdf) like runtime version manager (Imagine `nvm` for Node.js)
+- [Handbook](docs/handbook/README.md): My Obsidian based handbook.
+- [WIP] Website
+- 
 
 ## My Job
 
