@@ -1,6 +1,5 @@
 tap "cjbassi/ytop"
 tap "convco/formulae"
-tap "ethereum/ethereum"
 tap "extrawurst/tap"
 tap "facebook/fb"
 tap "github/gh"
@@ -25,18 +24,22 @@ brew "lf"
 brew "neovim"
 brew "starship"
 brew "tmux"
+brew "zoxide"
 brew "zsh"
 brew "zsh-autosuggestions"
 
+cask "alacritty"
 cask "1password"
-cask "brave-browser"
 cask "visual-studio-code"
-
-# mas "Bitwarden", id: 1137397744 # this didn't work. manually installed instead.
-mas "Xcode", id: 497799835
+cask "brave-browser"
+cask "obsidian"
+cask "slack"
 
 brew "skhd"
 brew "yabai"
+
+# mas "Bitwarden", id: 1137397744 # this didn't work. manually installed instead.
+mas "Xcode", id: 497799835
 
 # Low priority
 
@@ -46,7 +49,6 @@ brew "cmake"
 brew "convco"
 brew "coreutils"
 brew "curl"
-brew "ethereum"
 brew "fzf"
 brew "git-cliff"
 brew "grep"
@@ -70,9 +72,7 @@ brew "idb-companion"
 brew "watchman"
 brew "ytop"
 brew "zola"
-brew "zoxide"
 
-cask "alacritty"
 cask "android-studio"
 cask "blender"
 cask "discord"
@@ -83,14 +83,11 @@ cask "font-hack-nerd-font"
 cask "google-chrome"
 cask "google-cloud-sdk"
 # cask "google-japanese-ime"
-cask "gpg-suite"
 cask "insomnia"
 cask "ledger-live"
 cask "minecraft"
-cask "obsidian"
 cask "protonvpn"
 cask "signal"
-cask "slack"
 cask "steam"
 cask "zoom"
 cask "zulu11"
