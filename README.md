@@ -41,7 +41,7 @@ It supports...
 
 #### [Handbook](docs/handbook/README.md)
 
-Store all my knowledge in one place. Backed up Obsidian vault.
+My Obsidian based handbook. All my knoweadge should be there.
 
 ## My Job
 
