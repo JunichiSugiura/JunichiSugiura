@@ -19,7 +19,12 @@
 
 ### [diptools/dip](https://github.com/diptools/dip)
 
-White cross-platform application with React-like declarative UI and scalable ECS architecture all in Rust.
+dip is aiming to provide essential tools to build Web3 applications runs everywhere. (desktop, CLI, game etc.)
+
+All plugins are based on Bevy ECS design pattern.
+
+dip plugins are not only compatible with dekstop applications but also games like metaverse.
+It comes with React-like declarative UI powered by [Dioxus](https://github.com/dioxuslabs/dioxus).
 
 ### [JunichiSugiura/JunichiSugiura](https://github.com/JunichiSugiura/JunichiSugiura)
 
