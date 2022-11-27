@@ -46,15 +46,19 @@ Here's some ideas on what it does...
 
 ## My Job
 
+![typescript](https://img.shields.io/badge/TypeScript-000?style=for-the-badge&logo=typescript)
+![electron](https://img.shields.io/badge/Electron-000?style=for-the-badge&logo=electron&logoColor=white)
+![react-native](https://img.shields.io/badge/React%20Native-000?style=for-the-badge&logo=react)
+
 <div align="center">
   <a href="https://shop.ledger.com?r=3ae057a09ca4">
     <img algin="center" src="https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg" />
   </a>
 </div>
 
-![typescript](https://img.shields.io/badge/TypeScript-000?style=for-the-badge&logo=typescript)
-![electron](https://img.shields.io/badge/Electron-000?style=for-the-badge&logo=electron&logoColor=white)
-![react-native](https://img.shields.io/badge/React%20Native-000?style=for-the-badge&logo=react)
+Secure your digital assets in the most secure hardware crypto wallet.
+
+Here's an [affiliate link 🛍️](https://shop.ledger.com/?r=3ae057a09ca4) if you like to support what I do.
 
 ### [LedgerHQ/ledger-live](https://github.com/LedgerHQ/ledger-live)
 
