@@ -27,7 +27,7 @@ White cross-platform application with React-like declarative UI and scalable ECS
 
 ### [JunichiSugiura/JunichiSugiura](https://github.com/JunichiSugiura/JunichiSugiura)
 
-My GitHub Profile repository contains all my personal configuration. I'm more of a monorepo guy. Having Single Source of Truth helps me switching context.
+My GitHub Profile repository contains all my personal configuration. I'm more of a monorepo guy. Keeping Single Source of Truth helps me switching context.
 
 Here's some list...
 
