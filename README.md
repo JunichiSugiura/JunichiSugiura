@@ -28,13 +28,16 @@ White cross-platform application with React-like declarative UI and scalable ECS
 ### [JunichiSugiura/JunichiSugiura](https://github.com/JunichiSugiura/JunichiSugiura)
 
 My GitHub Profile repository contains all my personal configuration.
-I'm more of a monorepo guy. Having Single Source of Truth helps me switching context faster.
+
+I'm more of a monorepo guy.
+
+Having Single Source of Truth helps me switching context.
 
 Here's some list...
 
-- [Bundle](https://github.com/JunichiSugiura/JunichiSugiura/tree/main/bundle): My shiny new dotfiles powered by `dip bundle` subcommand.
+- [Bundle](https://github.com/JunichiSugiura/JunichiSugiura/tree/main/bundle): My dotfiles powered by `dip bundle` subcommand.
   - Setting up a new laptop in one shot (ideally) 🔫
-  - `dip bundle apply` command looks for `<root>bundle` direcotry and applies all the configuration.
+  - `dip bundle apply` command looks for `<root>/bundle` direcotry and applies all the configuration.
   - Support
     - [Homebrew bundel](https://github.com/Homebrew/homebrew-bundle)
     - [GNU Stow](https://www.gnu.org/software/stow/) like symlink manager
