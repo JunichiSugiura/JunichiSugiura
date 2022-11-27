@@ -55,12 +55,10 @@ Here's some ideas on what it does...
   <a href="https://shop.ledger.com?r=3ae057a09ca4">
     <img algin="center" src="https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg" />
   </a>
+  <p>Secure your digital assets in the most secure hardware crypto wallet.</p>
+  <p>Here's an <a target="_blank" src="https://shop.ledger.com/?r=3ae057a09ca4">affiliate link 🛍️</a> if you like to support what I do.</p>
   <br /><br />
 </div>
-
-Secure your digital assets in the most secure hardware crypto wallet.
-
-Here's an [affiliate link 🛍️](https://shop.ledger.com/?r=3ae057a09ca4) if you like to support what I do.
 
 ### [LedgerHQ/ledger-live](https://github.com/LedgerHQ/ledger-live)
 
