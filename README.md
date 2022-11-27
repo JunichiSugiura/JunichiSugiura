@@ -64,8 +64,8 @@ Here's some ideas on what it does...
 
   <br /><br />
 
-  <p>Secure your digital assets in the most secure hardware crypto wallet.</p>
-  <p>Here's an <a target="_blank" src="https://shop.ledger.com/?r=3ae057a09ca4">affiliate link 🛍️</a> if you like to support what I do.</p>
+  Secure your digital assets in the most secure hardware crypto wallet.
+  Here's an <a target="_blank" src="https://shop.ledger.com/?r=3ae057a09ca4">affiliate link 🛍️</a> if you like to support what I do.
 
   <br /><br />
 </div>
