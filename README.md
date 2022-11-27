@@ -36,7 +36,7 @@ Here's some ideas on what it does...
   - `dip bundle apply` command looks for `<root>/bundle` direcotry and applies all the configuration.
   - Written in Rust 🦀
   - Support
-    - [Homebrew bundel](https://github.com/Homebrew/homebrew-bundle)
+    - [Homebrew bundle](https://github.com/Homebrew/homebrew-bundle)
       - formula
       - cask
       - tap
