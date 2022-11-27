@@ -1,9 +1,5 @@
 
 <div align="center">
-  <a href="https://shop.ledger.com?r=3ae057a09ca4">
-    <img algin="center" src="https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg" />
-  </a>
-  
   <br />  <br />
   
   <p>Hi there! 👋</p>
@@ -15,7 +11,7 @@
   🇯🇵 → 🇹🇭 → 🇺🇸 → 🇯🇵 → 🇩🇪 → 🇫🇷
 </div>
 
-## Side Projects
+## Personal Projects
 ![rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust)
 [![bevy](https://img.shields.io/badge/Bevy%20Game%20Engine-000?style=for-the-badge)](https://bevyengine.org/)
 [![dioxus](https://img.shields.io/badge/Dioxus-000?style=for-the-badge)]([https://bevyengine.org/](https://dioxuslabs.com/))
@@ -49,6 +45,12 @@ Here's some ideas on what it does...
 - [WIP] Website
 
 ## My Job
+
+<div align="center">
+  <a href="https://shop.ledger.com?r=3ae057a09ca4">
+    <img algin="center" src="https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg" />
+  </a>
+</div>
 
 ![typescript](https://img.shields.io/badge/TypeScript-000?style=for-the-badge&logo=typescript)
 ![electron](https://img.shields.io/badge/Electron-000?style=for-the-badge&logo=electron&logoColor=white)
