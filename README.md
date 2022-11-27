@@ -20,7 +20,6 @@
 [![bevy](https://img.shields.io/badge/Bevy%20Game%20Engine-000?style=for-the-badge)](https://bevyengine.org/)
 [![dioxus](https://img.shields.io/badge/Dioxus-000?style=for-the-badge)]([https://bevyengine.org/](https://dioxuslabs.com/))
 ![solidity](https://img.shields.io/badge/Solidity-000?style=for-the-badge&logo=solidity)
-![bash](https://img.shields.io/badge/Bash-000?style=for-the-badge&logo=gnu-bash)
 
 ### [diptools/dip](https://github.com/diptools/dip)
 
