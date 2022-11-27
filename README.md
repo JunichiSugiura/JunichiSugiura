@@ -22,21 +22,14 @@
 dip is a full-Rust Web3 application toolkit focus on ECS based event-driven development.
 
 - All plugins are based on Bevy ECS design pattern.
-- Cross compatibility
-	- Games
-		- Web3 toolkit provided for Bevy game engine
-		- Metaverse compatible
-	- Desktop Application
-		- Cross-platform (Linux, macOS, Windows)
-		- React like declarative UI via [Dioxus](https://github.com/dioxuslabs/dioxus)
-	- Command Line Tools
+- Share your logic between games, desktop apps and command line tools
+- React-like declarative UI via [Dioxus](https://github.com/dioxuslabs/dioxus)
 - Developer tools
-	- Command Line Tools ( `dip` );
-		- Bundle: Tools to setup your computer with one command
-			- Homebrew: Installs Homebrew formula, cask, mas via `brew bundle`
-      - Symlink manager aka Dotfiles: inspired by [GNU Stow](https://www.gnu.org/software/stow/).
-			- Version Manager: like `asdf`, `nvm`, `rbenv`, `gvm` etc.
-- Device: Talk with Ledger devices.
+	- Bundle: Tools to setup your computer with one command
+		- Homebrew: Installs Homebrew formula, cask, mas via `brew bundle`
+		- Symlink manager aka Dotfiles: inspired by [GNU Stow](https://www.gnu.org/software/stow/).
+		- Version Manager: like `asdf`, `nvm`, `rbenv`, `gvm` etc.
+	- Device: interact with hardware crypto wallet.
 
 ### [JunichiSugiura/JunichiSugiura](https://github.com/JunichiSugiura/JunichiSugiura)
 
