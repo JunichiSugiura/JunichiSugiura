@@ -81,20 +81,18 @@ Companion app for Ledger devices
 ![editor](https://img.shields.io/badge/Neovim-000000?style=for-the-badge&logo=neovim)
 ![browser](https://img.shields.io/badge/Brave-000000?style=for-the-badge&logo=brave)
 
-### Dotfiles
+### dotfiles
 
 **macOS**
 
 ```sh
-# TODO: Install dip
-# some sort of shell to install dip
+# Install dip
+# TODO: some sort of shell to install dip
 # curl --proto '=https' --tlsv1.2 -sSf https://dip.tools/install.sh | sh
 
 # Apply Bundle
 dip bundle apply
 ```
-
-[JunichiSugiura/dotfiles (Deprecated)](https://github.com/JunichiSugiura/dotfiles)
 
 ## HODL
 
