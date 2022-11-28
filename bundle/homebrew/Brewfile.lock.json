@@ -17,13 +17,13 @@
         "revision": "209f59cda890de69b74c224982591642c21323d3"
       },
       "homebrew/cask": {
-        "revision": "3fa3660811fd5964baa5cfe9a8fe3ac2898fb7c9"
+        "revision": "54714f80d9df86e044d81d949e8a47727d17291d"
       },
       "homebrew/cask-fonts": {
-        "revision": "13aaeb7e6f272084f287e7c0249f1f71a12f9808"
+        "revision": "4892a9d47d09d9653362b2eced7f8ea63328c865"
       },
       "homebrew/cask-versions": {
-        "revision": "2dbbd62b66d0a94b5da0e4ab12f0194a76dea6d9"
+        "revision": "f0b5766d1c7ebd98abde117463e69bdeb6e7631e"
       },
       "homebrew/services": {
         "revision": "88788e6314506b662f971f43af119c641190a4c8"
@@ -166,6 +166,11 @@
               "cellar": ":any_skip_relocation",
               "url": "https://ghcr.io/v2/homebrew/core/fd/blobs/sha256:2b43cfc97e23061fd573acd571e41dd02c849c5d1c0c237f3cd0737a737a252f",
               "sha256": "2b43cfc97e23061fd573acd571e41dd02c849c5d1c0c237f3cd0737a737a252f"
+            },
+            "ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/fd/blobs/sha256:b741bd5c98bfd8fb5d7f40fcb48488316753784f496cf2f7d0e513b82c948129",
+              "sha256": "b741bd5c98bfd8fb5d7f40fcb48488316753784f496cf2f7d0e513b82c948129"
             },
             "monterey": {
               "cellar": ":any_skip_relocation",
@@ -2224,7 +2229,7 @@
         }
       },
       "zoom": {
-        "version": "5.12.8.12565",
+        "version": "5.12.9.13190",
         "options": {
           "full_name": "zoom",
           "args": {
@@ -2236,6 +2241,15 @@
         "version": "11.0.17,11.60.19-ca",
         "options": {
           "full_name": "zulu11",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "telegram": {
+        "version": "9.1.1,238861",
+        "options": {
+          "full_name": "telegram",
           "args": {
             "appdir": "/Applications"
           }
@@ -2262,7 +2276,7 @@
       "ventura": {
         "HOMEBREW_VERSION": "3.6.12",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "c453ad229b3f3c3383fe086e4ce8b2aa86ed324f",
+        "Homebrew/homebrew-core": "3e36675aa413b65980bfac93eaf0940e8bb80577",
         "CLT": "14.1.0.0.1.1666437224",
         "Xcode": "14.1",
         "macOS": "13.0.1"

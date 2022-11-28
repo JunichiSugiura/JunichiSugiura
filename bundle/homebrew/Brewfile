@@ -90,6 +90,7 @@ cask "minecraft"
 cask "protonvpn"
 cask "signal"
 cask "steam"
+cask "telegram"
 cask "zoom"
 cask "zulu11"
 
