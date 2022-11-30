@@ -40,7 +40,7 @@ Here's some ideas on what it does...
 - [Bundle](https://github.com/JunichiSugiura/JunichiSugiura/tree/main/bundle)
   - Setting up a new laptop in one shot (ideally) 🔫 It's the new dotfiles.
   - `dip bundle apply` command looks for `bundle/` direcotry and applies all the configuration.
-- [Handbook](docs/handbook/README.md)
+- [Handbook](handbook/README.md)
   - My Obsidian based handbook.
 - Website (TBA)
 
