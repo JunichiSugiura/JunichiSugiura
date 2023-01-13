@@ -47,14 +47,14 @@ let-env PATH = ($'($env.PNPM_HOME):($env.PATH)')
 ##################################################
 
 if (which zoxide | is-empty) == false {
-    zoxide init nushell | save $'($env.HOME)/.zoxide.nu'
+    zoxide init nushell | save -f ~/.zoxide.nu
 }
 
 ##################################################
 # Starship
 ##################################################
 
-if (which starship | is-empty) == false {
+if ('~/.cache/starship/init.nu' | path exists) == false {
     mkdir ~/.cache/starship
     starship init nu | sed "s/size -c/size/" | save ~/.cache/starship/init.nu
 }

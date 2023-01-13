@@ -4,11 +4,11 @@
 # export PATH=$HOME/Downloads/node-v19.1.0-darwin-arm64/bin:$PATH
 
 # # Homebrew, asdf-vm
-# if [ -f "/opt/homebrew/bin/brew"  ]; then
-#     eval "$(/opt/homebrew/bin/brew shellenv)"
+if [ -f "/opt/homebrew/bin/brew"  ]; then
+    eval "$(/opt/homebrew/bin/brew shellenv)"
 
-#     . $(brew --prefix asdf)/libexec/asdf.sh
-# fi
+    # . $(brew --prefix asdf)/libexec/asdf.sh
+fi
 
 # if [ -d "$HOME/.cargo/bin"  ]; then
 #     source ~/.cargo/env
