@@ -25,7 +25,7 @@ source ~/.cache/starship/init.nu
 # Conditional alias does not seem to work currently
 # https://github.com/nushell/nushell/issues/5068
 alias cat = bat
-alias cd = z
+# alias cd = z
 alias vi = nvim
 alias ll = ls -la
 alias ps = procs

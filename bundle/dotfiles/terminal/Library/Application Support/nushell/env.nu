@@ -36,6 +36,14 @@ let-env PATH = ($'($env.HOME)/Library/Application Support/dip/bundle/shims:($env
 let-env GPG_TTY = (echo (tty))
 
 ##################################################
+# Docker
+##################################################
+
+if ('/usr/local/bin' | path exists) == true {
+    let-env PATH = ($'/usr/local/bin:($env.PATH)')
+}
+
+##################################################
 # pnpm
 ##################################################
 
@@ -65,3 +73,11 @@ if ('~/.cache/starship/init.nu' | path exists) == false {
 
 let-env FZF_DEFAULT_COMMAND = "rg --files --hidden -l -g '!.git/*' -g '!node_modules/*'"
 let-env FZF_DEFAULT_OPTS = "-m --height 100% --border --preview 'cat {}'"
+
+##################################################
+# Android
+##################################################
+
+if ('~/Library/Android/sdk' | path exists) == true {
+    let-env ANDROID_HOME = ($'($env.HOME)/Library/Android/sdk')
+}
