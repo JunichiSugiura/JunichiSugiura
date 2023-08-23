@@ -2,53 +2,59 @@
 # Homebrew
 ##################################################
 
-let-env PATH = ($'/opt/homebrew/bin:($env.PATH)')
+$env.PATH = ($'/opt/homebrew/bin:($env.PATH)')
 
 ##################################################
 # Cargo
 ##################################################
 
 # List doesn't seem to work.
-let-env PATH = ($'($env.HOME)/.cargo/bin:($env.PATH)')
+$env.PATH = ($'($env.HOME)/.cargo/bin:($env.PATH)')
 
 ##################################################
 # Homebrew Ruby
 ##################################################
 
-let-env PATH = ($'/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.0.0/bin:($env.PATH)')
+$env.PATH = ($'/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.0.0/bin:($env.PATH)')
 
 ###################################################
 # asdf
 ###################################################
 
-# let-env PATH = ($'($env.HOME)/.asdf/shims/:($env.PATH)')
+# $env.PATH = ($'($env.HOME)/.asdf/shims/:($env.PATH)')
 
 ##################################################
 # dip
 ##################################################
 
-let-env PATH = ($'($env.HOME)/Library/Application Support/dip/bundle/shims:($env.PATH)')
+$env.PATH = ($'($env.HOME)/Library/Application Support/dip/bundle/shims:($env.PATH)')
 
 ##################################################
 # GPG
 ##################################################
 
-let-env GPG_TTY = (echo (tty))
+$env.GPG_TTY = (echo (tty))
 
 ##################################################
 # Docker
 ##################################################
 
 if ('/usr/local/bin' | path exists) == true {
-    let-env PATH = ($'/usr/local/bin:($env.PATH)')
+    $env.PATH = ($'/usr/local/bin:($env.PATH)')
 }
 
 ##################################################
 # pnpm
 ##################################################
 
-let-env PNPM_HOME = ($'($env.HOME)/Library/pnpm') 
-let-env PATH = ($'($env.PNPM_HOME):($env.PATH)')
+# $env.PNPM_HOME = ($'($env.HOME)/Library/pnpm') 
+# $env.PATH = ($'($env.PNPM_HOME):($env.PATH)')
+
+##################################################
+# corepack
+##################################################
+
+$env.PATH = ($'/Users/js/Library/Application Support/dip/bundle/installs/nodejs/18.17.0/lib/node_modules/corepack/shims:($env.PATH)')
 
 ##################################################
 # Zoxide
@@ -71,13 +77,25 @@ if ('~/.cache/starship/init.nu' | path exists) == false {
 # FZF
 ##################################################
 
-let-env FZF_DEFAULT_COMMAND = "rg --files --hidden -l -g '!.git/*' -g '!node_modules/*'"
-let-env FZF_DEFAULT_OPTS = "-m --height 100% --border --preview 'cat {}'"
+$env.FZF_DEFAULT_COMMAND = "rg --files --hidden -l -g '!.git/*' -g '!node_modules/*'"
+$env.FZF_DEFAULT_OPTS = "-m --height 100% --border --preview 'cat {}'"
+
+##################################################
+# Dojo
+##################################################
+
+$env.PATH = ($'($env.HOME)/.dojo/bin:($env.PATH)')
 
 ##################################################
 # Android
 ##################################################
 
 if ('~/Library/Android/sdk' | path exists) == true {
-    let-env ANDROID_HOME = ($'($env.HOME)/Library/Android/sdk')
+    $env.ANDROID_HOME = ($'($env.HOME)/Library/Android/sdk')
 }
+
+##################################################
+# Yarn
+##################################################
+
+$env.PATH = ($'($env.HOME)/Library/Application Support/dip/bundle/installs/nodejs/18.14.2/lib/node_modules/yarn/bin:($env.PATH)')

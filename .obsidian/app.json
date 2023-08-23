@@ -4,5 +4,6 @@
   "showLineNumber": true,
   "promptDelete": false,
   "showFrontmatter": true,
-  "tabSize": 2
+  "tabSize": 2,
+  "alwaysUpdateLinks": true
 }

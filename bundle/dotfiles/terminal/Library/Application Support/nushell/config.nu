@@ -2,7 +2,7 @@
 # Config
 ##################################################
 
-let-env config = {
+$env.config = {
     show_banner: false
 }
 

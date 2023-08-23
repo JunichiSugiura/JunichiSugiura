@@ -11,7 +11,7 @@ space_indices_on_mbp_display="$(
     yabai -m query --displays \
         | jq -e 'map(select(.uuid == "2F917C32-1D54-4830-4A41-1078CDA43226")) | .[0].spaces[]'
 )"
-for index in "$space_indices_on_mbp_display"
+for index in $space_indices_on_mbp_display
 do
     yabai -m config --space "$index" layout stack
 done

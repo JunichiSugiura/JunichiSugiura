@@ -2,4 +2,4 @@ bundle_root = "$HOME/Projects/github.com/JunichiSugiura/JunichiSugiura/bundle"
 
 [vm.runtime]
 tailwindcss = ["3.2.4"]
-nodejs = ["16.18.1", "18.14.2"]
+nodejs = ["18.17.0"]
