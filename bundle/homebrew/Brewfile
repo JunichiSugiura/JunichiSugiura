@@ -46,6 +46,7 @@ mas "Xcode", id: 497799835
 
 brew "applesimutils"
 brew "bandwhich"
+brew "bazelisk"
 brew "cmake"
 brew "convco"
 brew "coreutils"
