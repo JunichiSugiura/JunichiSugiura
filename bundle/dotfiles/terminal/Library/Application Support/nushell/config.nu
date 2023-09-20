@@ -28,5 +28,5 @@ alias cat = bat
 # alias cd = z
 alias vi = nvim
 alias ll = ls -la
-alias ps = procs
-alias top = ytop
+# alias ps = procs
+# alias top = bottom

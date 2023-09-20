@@ -4,9 +4,9 @@
   
   <p>Hi there! 👋</p>
   
-  <p>Developer at <a target="_blank" href="https://shop.ledger.com?r=3ae057a09ca4">Ledger</a> in Paris.</p>
+  <p>Developer at <a target="_blank" href="https://cartridge.gg/">Cartridge</a> in Paris.</p>
 
-  <p>Building an <a target="_blank" href="https://github.com/LedgerHQ/ledger-live-mobile">app</a> for secure crypto wallet.</p>
+  <p>Building infra for onchain games.</p>
   <p>Love cutting edge tech and devices.</p>
   🇯🇵 → 🇹🇭 → 🇺🇸 → 🇯🇵 → 🇩🇪 → 🇫🇷
 </div>
@@ -15,7 +15,6 @@
 ![rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust)
 [![bevy](https://img.shields.io/badge/Bevy%20Game%20Engine-000?style=for-the-badge)](https://bevyengine.org/)
 [![dioxus](https://img.shields.io/badge/Dioxus-000?style=for-the-badge)]([https://bevyengine.org/](https://dioxuslabs.com/))
-![solidity](https://img.shields.io/badge/Solidity-000?style=for-the-badge&logo=solidity)
 
 ### [diptools/dip](https://github.com/diptools/dip)
 
@@ -44,30 +43,30 @@ Here's some ideas on what it does...
   - My Obsidian based handbook.
 - Website (TBA)
 
-## My Job
+<!-- ## My Job -->
 
-![typescript](https://img.shields.io/badge/TypeScript-000?style=for-the-badge&logo=typescript)
-![electron](https://img.shields.io/badge/Electron-000?style=for-the-badge&logo=electron&logoColor=white)
-![react-native](https://img.shields.io/badge/React%20Native-000?style=for-the-badge&logo=react)
+<!-- ![typescript](https://img.shields.io/badge/TypeScript-000?style=for-the-badge&logo=typescript) -->
+<!-- ![electron](https://img.shields.io/badge/Electron-000?style=for-the-badge&logo=electron&logoColor=white) -->
+<!-- ![react-native](https://img.shields.io/badge/React%20Native-000?style=for-the-badge&logo=react) -->
 
-<div align="center">
-  <br /><br />
+<!-- <div align="center"> -->
+<!--   <br /><br /> -->
 
-  <a href="https://shop.ledger.com?r=3ae057a09ca4">
-    <img algin="center" src="https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg" />
-  </a>
+<!--   <a href="https://shop.ledger.com?r=3ae057a09ca4"> -->
+<!--     <img algin="center" src="https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg" /> -->
+<!--   </a> -->
 
-  <br /><br />
+<!--   <br /><br /> -->
 
-  <p>Secure your digital assets in the most secure hardware crypto wallet.</p>
-  <p>Here's an <a href="https://shop.ledger.com/?r=3ae057a09ca4">affiliate link 🛍️</a> if you like to support what I do.</p>
+<!--   <p>Secure your digital assets in the most secure hardware crypto wallet.</p> -->
+<!--   <p>Here's an <a href="https://shop.ledger.com/?r=3ae057a09ca4">affiliate link 🛍️</a> if you like to support what I do.</p> -->
 
-  <br /><br />
-</div>
+<!--   <br /><br /> -->
+<!-- </div> -->
 
-### [LedgerHQ/ledger-live](https://github.com/LedgerHQ/ledger-live)
+<!-- ### [LedgerHQ/ledger-live](https://github.com/LedgerHQ/ledger-live) -->
 
-Companion app for Ledger devices
+<!-- Companion app for Ledger devices -->
 
 ## Setup
 
