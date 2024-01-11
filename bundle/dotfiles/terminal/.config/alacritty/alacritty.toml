@@ -1,0 +1,144 @@
+live_config_reload = true
+
+[colors.bright]
+black = "0x444b6a"
+blue = "0x7da6ff"
+cyan = "0x0db9d7"
+green = "0xb9f27c"
+magenta = "0xbb9af7"
+red = "0xff7a93"
+white = "0xacb0d0"
+yellow = "0xff9e64"
+
+[colors.normal]
+black = "0x32344a"
+blue = "0x7aa2f7"
+cyan = "0x449dab"
+green = "0x9ece6a"
+magenta = "0xad8ee6"
+red = "0xf7768e"
+white = "0x787c99"
+yellow = "0xe0af68"
+
+[colors.primary]
+background = "0x1a1b26"
+foreground = "0xa9b1d6"
+
+[font]
+size = 11
+
+[font.bold]
+family = "Hack Nerd Font"
+style = "Bold"
+
+[font.normal]
+family = "Hack Nerd Font"
+style = "Regular"
+
+[font.offset]
+y = 5
+
+[[keyboard.bindings]]
+action = "ToggleViMode"
+key = "Period"
+mode = "~Search"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "None"
+key = "Q"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "None"
+key = "W"
+mods = "Command"
+
+[schemes.cyberpunk-neon.bright]
+black = "0x1c61c2"
+blue = "0x00ff00"
+cyan = "0x0abdc6"
+green = "0xd300c4"
+magenta = "0x711c91"
+red = "0xff0000"
+white = "0xd7d7d5"
+yellow = "0xf57800"
+
+[schemes.cyberpunk-neon.cursor]
+cursor = "0x0abdc6"
+text = "0x000b1e"
+
+[schemes.cyberpunk-neon.normal]
+black = "0x123e7c"
+blue = "0x123e7c"
+cyan = "0x0abdc6"
+green = "0xd300c4"
+magenta = "0x711c91"
+red = "0xff0000"
+white = "0xd7d7d5"
+yellow = "0xf57800"
+
+[schemes.cyberpunk-neon.primary]
+background = "0x000b1e"
+foreground = "0x0abdc6"
+
+[schemes.tokyo-night.bright]
+black = "0x444b6a"
+blue = "0x7da6ff"
+cyan = "0x0db9d7"
+green = "0xb9f27c"
+magenta = "0xbb9af7"
+red = "0xff7a93"
+white = "0xacb0d0"
+yellow = "0xff9e64"
+
+[schemes.tokyo-night.normal]
+black = "0x32344a"
+blue = "0x7aa2f7"
+cyan = "0x449dab"
+green = "0x9ece6a"
+magenta = "0xad8ee6"
+red = "0xf7768e"
+white = "0x787c99"
+yellow = "0xe0af68"
+
+[schemes.tokyo-night.primary]
+background = "0x1a1b26"
+foreground = "0xa9b1d6"
+
+[schemes.tokyo-night-storm.bright]
+black = "0x444b6a"
+blue = "0x7da6ff"
+cyan = "0x0db9d7"
+green = "0xb9f27c"
+magenta = "0xbb9af7"
+red = "0xff7a93"
+white = "0xacb0d0"
+yellow = "0xff9e64"
+
+[schemes.tokyo-night-storm.normal]
+black = "0x32344a"
+blue = "0x7aa2f7"
+cyan = "0x449dab"
+green = "0x9ece6a"
+magenta = "0xad8ee6"
+red = "0xf7768e"
+white = "0x9699a8"
+yellow = "0xe0af68"
+
+[schemes.tokyo-night-storm.primary]
+background = "0x24283b"
+foreground = "0xa9b1d6"
+
+[shell]
+args = ["new-session", "-D", "-c", "#{pane_current_path}"]
+program = "/opt/homebrew/bin/tmux"
+
+[window]
+decorations = "none"
+dynamic_padding = true
+opacity = 0.95
+
+[window.padding]
+x = 2
+y = 2

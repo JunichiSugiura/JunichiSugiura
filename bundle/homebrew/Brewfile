@@ -1,7 +1,6 @@
 tap "github/gh"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
-tap "homebrew/cask"
 tap "homebrew/services"
 tap "koekeishiya/formulae"
 cask_args appdir: "/Applications"
@@ -53,6 +52,10 @@ brew "protobuf"
 brew "python@3.11"
 brew "rust-analyzer"
 brew "zsh"
+
+# DB
+# brew "atlas"
+# brew "postgresql@14"
 
 # Neovim
 cask "font-hack-nerd-font"

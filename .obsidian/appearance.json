@@ -3,5 +3,6 @@
   "interfaceFontFamily": "",
   "enabledCssSnippets": [
     "disable-font-ligatures"
-  ]
+  ],
+  "baseFontSize": 18
 }
