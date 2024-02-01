@@ -43,8 +43,9 @@ brew "grep"
 # brew "sd" # `sed` in Rust
 # brew "tealdeer" # `tldr` in Rust
 
-# Language / shell
+# Language / Shell / Build tool
 # brew "asdf"
+brew "bazelisk"
 brew "go"
 brew "nushell"
 brew "pnpm"
