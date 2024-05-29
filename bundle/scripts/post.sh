@@ -90,17 +90,18 @@ for plugin in $(asdf plugin list); do
 done
 
 ###########################################################
-# Yarn global
-###########################################################
-if ! is_dir ~/.config/yarn/global/node_modules; then
-    log 'Setup Yarn global'
-    yarn global add
-fi
-
-###########################################################
 # wasm-pack
 ###########################################################
 if ! is_dir ~/.cargo/bin/wasm-pack; then
     log 'Setup wasm-pack'
     curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
+fi
+
+###########################################################
+# starkli
+###########################################################
+if ! is_dir ~/.starkli; then
+    log 'Setup starkli'
+    curl https://get.starkli.sh | sh
+    ~/.starkli/bin/starkliup
 fi
