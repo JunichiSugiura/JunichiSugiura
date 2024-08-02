@@ -89,6 +89,7 @@ cask "zoom"
 cask "figma"
 
 cask "docker"
+cask "firefox"
 cask "google-chrome"
 cask "google-cloud-sdk"
 # cask "google-japanese-ime"
