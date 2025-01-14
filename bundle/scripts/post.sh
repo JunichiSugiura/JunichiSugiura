@@ -44,20 +44,20 @@ if ! gh auth status; then
     gh auth login
 fi
 
-###########################################################
-# Git GPG Signing Key
-###########################################################
-if ! is_dir ~/.gnupg || [ -z "$(gpg --list-secret-keys --keyid-format LONG)" ]; then
-    log 'Generate GPG key'
-    gpg --default-new-key-algo rsa4096 --gen-key
-    key_id=$(gpg --list-secret-keys --keyid-format LONG | ggrep -oP "rsa4096\/[0-9a-fA-F]{16}" | cut -d"/"  -f2)
+# ###########################################################
+# # Git GPG Signing Key
+# ###########################################################
+# if ! is_dir ~/.gnupg || [ -z "$(gpg --list-secret-keys --keyid-format LONG)" ]; then
+#     log 'Generate GPG key'
+#     gpg --default-new-key-algo rsa4096 --gen-key
+#     key_id=$(gpg --list-secret-keys --keyid-format LONG | ggrep -oP "rsa4096\/[0-9a-fA-F]{16}" | cut -d"/"  -f2)
 
-    log 'Setup Git with GPG key'
-    git config --global user.signingkey "$key_id"
+#     log 'Setup Git with GPG key'
+#     git config --global user.signingkey "$key_id"
 
-    log 'Upload GPG public key to GitHub'
-    gpg --armor --export "$key_id" | gh gpg-key add -
-fi
+#     log 'Upload GPG public key to GitHub'
+#     gpg --armor --export "$key_id" | gh gpg-key add -
+# fi
 
 ###########################################################
 # asdf

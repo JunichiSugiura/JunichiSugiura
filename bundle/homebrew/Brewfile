@@ -88,7 +88,7 @@ cask "zoom"
 # cask "blender"
 cask "figma"
 
-cask "docker"
+# cask "docker"
 cask "firefox"
 cask "brave-browser"
 cask "google-chrome"
@@ -101,6 +101,10 @@ cask "visual-studio-code"
 # Crypto
 # brew "ethereum" # geth
 cask "ledger-live"
+
+# Music Production
+cask "elektron-overbridge"
+cask "sysex-librarian"
 
 # Game
 cask "minecraft"

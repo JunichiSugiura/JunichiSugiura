@@ -1,4 +1,10 @@
 ##################################################
+# sh
+##################################################
+
+$env.PATH = ($'/bin:/usr/bin:($env.PATH)')
+
+##################################################
 # Homebrew
 ##################################################
 
@@ -33,14 +39,14 @@ $env.PATH = ($'($env.HOME)/Library/Application Support/dip/bundle/shims:($env.PA
 # GPG
 ##################################################
 
-$env.GPG_TTY = (echo (tty))
+$env.GPG_TTY = (tty)
 
 ##################################################
 # Docker
 ##################################################
 
-if ('/usr/local/bin' | path exists) == true {
-    $env.PATH = ($'/usr/local/bin:($env.PATH)')
+if ('/Applications/Docker.app/Contents/Resources/bin' | path exists) == true {
+    $env.PATH = ($'/Applications/Docker.app/Contents/Resources/bin:($env.PATH)')
 }
 
 ##################################################
@@ -96,17 +102,3 @@ $env.PATH = ($'($env.HOME)/.local/bin:($env.PATH)')
 ##################################################
 
 $env.PATH = ($'($env.HOME)/.starkli/bin:($env.PATH)')
-
-##################################################
-# Android
-##################################################
-
-if ('~/Library/Android/sdk' | path exists) == true {
-    $env.ANDROID_HOME = ($'($env.HOME)/Library/Android/sdk')
-}
-
-##################################################
-# Yarn
-##################################################
-
-$env.PATH = ($'($env.HOME)/Library/Application Support/dip/bundle/installs/nodejs/18.14.2/lib/node_modules/yarn/bin:($env.PATH)')
