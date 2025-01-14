@@ -1,39 +1,16 @@
-##################################################
-# sh
-##################################################
-
-$env.PATH = ($'/bin:/usr/bin:($env.PATH)')
-
-##################################################
-# Homebrew
-##################################################
-
-$env.PATH = ($'/opt/homebrew/bin:($env.PATH)')
-
-##################################################
-# Cargo
-##################################################
-
-# List doesn't seem to work.
-$env.PATH = ($'($env.HOME)/.cargo/bin:($env.PATH)')
-
-##################################################
-# Homebrew Ruby
-##################################################
-
-$env.PATH = ($'/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.0.0/bin:($env.PATH)')
-
-###################################################
-# asdf
-###################################################
-
-# $env.PATH = ($'($env.HOME)/.asdf/shims/:($env.PATH)')
-
-##################################################
-# dip
-##################################################
-
-$env.PATH = ($'($env.HOME)/Library/Application Support/dip/bundle/shims:($env.PATH)')
+$env.path ++= [
+    '/Applications/Docker.app/Contents/Resources/bin',
+    $'($env.HOME)/.cargo/bin',
+    $'($env.HOME)/.dojo/bin',
+    $'($env.HOME)/.local/bin',
+    $'($env.HOME)/.slot/bin',
+    $'($env.HOME)/.starkli/bin',
+    $'($env.HOME)/Library/Application Support/dip/bundle/shims',
+    '/opt/homebrew/bin',
+    '/opt/homebrew/lib/ruby/gems/3.0.0/bin',
+    '/opt/homebrew/opt/ruby/bin',
+    # $'($env.HOME)/.asdf/shims',
+]
 
 ##################################################
 # GPG
@@ -46,14 +23,10 @@ $env.GPG_TTY = (tty)
 ##################################################
 
 if ('/Applications/Docker.app/Contents/Resources/bin' | path exists) == true {
-    $env.PATH = ($'/Applications/Docker.app/Contents/Resources/bin:($env.PATH)')
+    $env.path ++= [
+        '/Applications/Docker.app/Contents/Resources/bin'
+    ]
 }
-
-##################################################
-# corepack
-##################################################
-
-$env.PATH = ($'/Users/js/Library/Application Support/dip/bundle/installs/nodejs/18.17.0/lib/node_modules/corepack/shims:($env.PATH)')
 
 ##################################################
 # Zoxide
@@ -78,27 +51,3 @@ if ('~/.cache/starship/init.nu' | path exists) == false {
 
 $env.FZF_DEFAULT_COMMAND = "rg --files --hidden -l -g '!.git/*' -g '!node_modules/*'"
 $env.FZF_DEFAULT_OPTS = "-m --height 100% --border --preview 'cat {}'"
-
-##################################################
-# Dojo
-##################################################
-
-$env.PATH = ($'($env.HOME)/.dojo/bin:($env.PATH)')
-
-##################################################
-# Slot
-##################################################
-
-$env.PATH = ($'($env.HOME)/.slot/bin:($env.PATH)')
-
-##################################################
-# Scarb
-##################################################
-
-$env.PATH = ($'($env.HOME)/.local/bin:($env.PATH)')
-
-##################################################
-# Starkli
-##################################################
-
-$env.PATH = ($'($env.HOME)/.starkli/bin:($env.PATH)')
