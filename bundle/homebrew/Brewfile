@@ -3,6 +3,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/services"
 tap "koekeishiya/formulae"
+tap "oven-sh/bun"
 cask_args appdir: "/Applications"
 
 # High priority
@@ -46,6 +47,7 @@ brew "grep"
 # Language / Shell / Build tool
 # brew "asdf"
 brew "bazelisk"
+brew "bun"
 brew "go"
 brew "nushell"
 brew "protobuf"
