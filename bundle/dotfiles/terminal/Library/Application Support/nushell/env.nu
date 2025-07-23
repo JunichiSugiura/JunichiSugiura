@@ -2,6 +2,7 @@ $env.path ++= [
     '/Applications/Docker.app/Contents/Resources/bin',
     $'($env.HOME)/.cargo/bin',
     $'($env.HOME)/.dojo/bin',
+    $'($env.HOME)/.dojo/dojoup',
     $'($env.HOME)/.local/bin',
     $'($env.HOME)/.slot/bin',
     $'($env.HOME)/.starkli/bin',

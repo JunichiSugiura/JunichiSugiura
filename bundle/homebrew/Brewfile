@@ -46,12 +46,12 @@ brew "grep"
 
 # Language / Shell / Build tool
 # brew "asdf"
-brew "bazelisk"
+# brew "bazelisk"
 brew "bun"
 brew "go"
 brew "nushell"
-brew "protobuf"
-brew "python@3.11"
+# brew "protobuf"
+# brew "python@3.11"
 brew "rust-analyzer"
 brew "zsh"
 
