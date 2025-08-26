@@ -119,3 +119,4 @@ mas "Amazon Kindle", id: 302584613
 
 # Mobile development
 cask "expo-orbit"
+brew "fastlane"
