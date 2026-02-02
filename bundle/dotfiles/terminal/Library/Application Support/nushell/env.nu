@@ -56,3 +56,11 @@ if ('~/.cache/starship/init.nu' | path exists) == false {
 
 $env.FZF_DEFAULT_COMMAND = "rg --files --hidden -l -g '!.git/*' -g '!node_modules/*'"
 $env.FZF_DEFAULT_OPTS = "-m --height 100% --border --preview 'cat {}'"
+
+
+##################################################
+# CEF
+##################################################
+
+$env.CEF_PATH = $'($env.HOME)/.local/share/cef'
+$env.DYLD_FALLBACK_LIBRARY_PATH = $'($env.DYLD_FALLBACK_LIBRARY_PATH):($env.CEF_PATH):$(env.CEF_PATH)/Chromium'

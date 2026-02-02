@@ -23,6 +23,8 @@ cask "alacritty"
 cask "arc"
 cask "cursor"
 cask "obsidian"
+cask "claude-code"
+
 
 # Window Manager / Key Bindings
 brew "skhd"
